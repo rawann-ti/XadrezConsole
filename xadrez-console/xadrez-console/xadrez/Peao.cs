@@ -1,8 +1,8 @@
-﻿using System;
-using tabuleiro;
+﻿using tabuleiro;
 
 namespace xadrez
 {
+
     class Peao : Peca
     {
 
