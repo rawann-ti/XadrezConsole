@@ -147,7 +147,7 @@ namespace xadrez
             Peca p = tab.peca(destino);
 
 
-            // # jogaespecial promocao
+            // # jogadaespecial promocao
 
             if(p is Peca)
             {
@@ -157,7 +157,7 @@ namespace xadrez
                     pecas.Remove(p);
                     Peca dama = new Dama(tab, p.cor);
                     tab.colocarPeca(dama, destino);
-                    pecas
+                    pecas.Add(dama);
                 }
             }
 
